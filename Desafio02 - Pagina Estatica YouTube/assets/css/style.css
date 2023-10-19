@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgba(249, 249, 249, 1);
+  ;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0px 24px 0px 24px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header .search {
+  display: flex;
+  justify-content: space-between;
+  width: 404px;
+  height: 40px;
+  border: 2px solid #ddd;
+}
+
+.header .search .img-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.header .search img {
+  width: 26px;
+  height: 26px;
+}
+
+
+.header .perfil {
+  width: 130px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  width: 952px;
+  /* height: 746px; */
+  margin-top: 16px;
+  margin-left: 75px;
+}
+
+.main-content h2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.main-content h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.main-content .main-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 470px;
+  height: 64px;
+}
+
+
+
+.sidebar .content-new-video{
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar .content-new-video .descrition {
+  width: 196px;
+  height: 89px;
+}
+.sidebar .content-new-video .descrition  h2{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sidebar .content-new-video .descrition  p{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(81, 81, 81, 1);
+  margin-top: 8px;
+}
+
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+.share-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.share-img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.share-btn {
+  background-color:rgba(204, 0, 0, 1);
+  width: 139px;
+  height: 42px;
+  border-radius: 3px;
+  border: none;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.share-share {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 5px;
+}
+
+
+
