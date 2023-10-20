@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  display: grid;
+  grid: 56px auto / 218px auto;
+  grid-template-areas: 
+    'header header header header header'
+    'menu main main main main'
+  ;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.logo {
+  width: 146px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 404px;
+  height: 40px;
+  border: 2px solid #dbd8d8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 100%;
+  height: 36px;
+  border: none;
+  padding-left: 15px;
+  outline: none;
+  font-size: 18px;
+}
+
+.search .search-img {
+  width: 57px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-left: 2px solid #dbd8d8;
+}
+
+.perfil {
+  width: 130px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfil img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+aside {
+  grid-area: menu;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center; 
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  gap: 24px;
+}
+
+aside ul li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.menu p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+main {
+  background-color: #fcfbfb;
+  grid-area: main;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 16px;
+}
+
+.card {
+  width: 282px;
+  padding: 16px;
+}
+
+.card .descrition {
+  width: 250px;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card .descrition img {
+  width: 42px;
+  height: 42px;
+}
+
+.card .text h3{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.card .text p{
+  font-size: 16px;
+  color: rgba(81, 81, 81, 1)
+}
+
