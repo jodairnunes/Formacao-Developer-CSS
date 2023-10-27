@@ -11,3 +11,6 @@ Repositório criado para realização dos desafios da Formação Developer CSS d
 ### Desafio 04 - Design do Projeto Realizado
 ![Design do Projeto](https://github.com/jodairnunes/Formacao-Developer-CSS/assets/127688761/6ebc2782-96b7-40e8-973e-76050e756904)
 
+### Desafio 05 - Design Desktop do Projeto Realizado
+![Design do Projeto](https://github.com/jodairnunes/Formacao-Developer-CSS/assets/127688761/c97327db-e387-4042-bf00-69b553f117f9)
+
